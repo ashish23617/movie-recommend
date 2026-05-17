@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body >
+      
+      <div id ="main">
+        <p>Unlimited movies,<br>
+             shows, and more</p>
+             <section class="search-box">
+        <input type="text" id="movieInput" placeholder="Search a movie..." autocomplete="off" />
+        <button onclick="recommendMovies()">Recommend</button>
+    </section>
+    <section id="heading">
+        <h2 id="selectedMovie"></h2>
+        <div class="movies" id="movieList"></div>
+    </section>
+     <!-- <h1>Vertical  navigation bar</h1> -->
+    <ul id="sidebar">
+        <li><a href="#" onclick="showCategory('movie')">&#127916;movies</a></li>
+        <li><a href="#" onclick="showCategory('drama')"> &#127917;dramas</a></li>
+        <li><a href="#" onclick="showCategory('cartoon')">&#129313;cartoons</a></li>
+        <li><a href="#" onclick="showCategory('sports')">&#9917;sports</a></li>
+    </ul>
+      </div>
+      <!-- <main>
+        
+      </main>
+    <section class="search-box">
+        <input type="text" id="movieInput" placeholder="Search a movie..." autocomplete="off" />
+        <button onclick="recommendMovies()">Recommend</button>
+    </section> -->
+
+    <!-- <section class="selected-area">
+        <h2 id="selectedMovie"></h2>
+    </section> -->
+
+    <!-- <section id="heading">
+        <h2 id="selectedMovie"></h2>
+        <div class="movies" id="movieList"></div>
+    </section> -->
+   
+    <footer>
+        <p> &copy All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
